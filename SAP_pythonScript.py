@@ -1,8 +1,5 @@
 # -*- coding: utf-8 -*-
 """
-Created on Fri Mar  3 14:26:24 2023
-
-@author: Weiche.Fu
 """
 
 
@@ -29,77 +26,24 @@ folderdir+filename
 #enddate= input("Please input your ending date in this format(MM/DD/YYYY)")
 
 
-# =============================================================================
-# session.findById("wnd[0]").maximize()
-# session.findById("wnd[0]/tbar[0]/okcd").text = "/nzvp1a"
-# session.findById("wnd[0]").sendVKey(0)
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/ctxtWA_SEL_0130-MATL").text = "0669499001*"
-# #session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/ctxtWA_SEL_0130-MATL").text = "*"
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/ctxtWA_SEL_0130-MATL").caretPosition = 11
-# session.findById("wnd[0]").sendVKey(0)
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/cntlCC0130/shellcont/shell").pressToolbarContextButton("&MB_EXPORT")
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/cntlCC0130/shellcont/shell").selectContextMenuItem("&XXL")
-# session.findById("wnd[1]/tbar[0]/btn[0]").press()
-# session.findById("wnd[1]/usr/ctxtDY_PATH").text = "C:\\Users\\Weiche.Fu\\Downloads\\"
-# session.findById("wnd[1]/usr/ctxtDY_FILENAME").text = filename
-# session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 33
-# session.findById("wnd[1]/tbar[0]/btn[0]").press()
-# 
-# =============================================================================
 
-
-###
-# =============================================================================
-# 
-# session.findById("wnd[0]").maximize()
-# session.findById("wnd[0]/usr/txtRSYST-MANDT").text = "401"
-# session.findById("wnd[0]/usr/txtRSYST-BNAME").text = "wn00213113"
-# session.findById("wnd[0]/usr/pwdRSYST-BCODE").text = "fuyuangche06"
-# # session.findById("wnd[0]/usr/txtRSYST-BNAME").text = "wn00211424"
-# # session.findById("wnd[0]/usr/pwdRSYST-BCODE").text = "Juan123qwe"
-# 
-# session.findById("wnd[0]/usr/txtRSYST-LANGU").text = "en"
-# session.findById("wnd[0]/usr/txtRSYST-MANDT").setFocus()
-# session.findById("wnd[0]/usr/txtRSYST-LANGU").caretPosition = 2
-# session.findById("wnd[0]").sendVKey(0)
-# session.findById("wnd[0]/tbar[0]/btn[11]").press()
-# session.findById("wnd[0]/tbar[0]/okcd").text = "/nzvp1a" 
-# session.findById("wnd[0]").sendVKey(0) 
-# 
-# 
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/ctxtWA_SEL_0130-MATL").text = "0669499001*"
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/ctxtWA_SEL_0130-MATL").caretPosition = 11
-# session.findById("wnd[0]").sendVKey(0)
-# 
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/cntlCC0130/shellcont/shell").pressToolbarContextButton("&MB_EXPORT")
-# session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/cntlCC0130/shellcont/shell").selectContextMenuItem("&XXL")
-# session.findById("wnd[1]/tbar[0]/btn[0]").press()
-# session.findById("wnd[1]/usr/ctxtDY_PATH").text = "C:\\Users\\Weiche.Fu\\Downloads\\"
-# session.findById("wnd[1]/usr/ctxtDY_FILENAME").text = filename
-# session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 33
-# session.findById("wnd[1]/tbar[0]/btn[0]").press()
-# 
-# =============================================================================
-
-
+###put the SAPscript into here/Remember to change the code into python
 
 session.findById("wnd[0]").maximize()
-session.findById("wnd[0]/usr/txtRSYST-MANDT").text = "401"
-session.findById("wnd[0]/usr/txtRSYST-BNAME").text = "wn00213113"
-session.findById("wnd[0]/usr/pwdRSYST-BCODE").text = "fuyuangche06"
-# session.findById("wnd[0]/usr/txtRSYST-BNAME").text = "wn00211424"
-# session.findById("wnd[0]/usr/pwdRSYST-BCODE").text = "Juan123qwe"
+session.findById("wnd[0]/usr/txtRSYST-MANDT").text = "****"
+session.findById("wnd[0]/usr/txtRSYST-BNAME").text = "*******"
+session.findById("wnd[0]/usr/pwdRSYST-BCODE").text = "********"
+
 
 session.findById("wnd[0]/usr/txtRSYST-LANGU").text = "en"
 session.findById("wnd[0]/usr/txtRSYST-MANDT").setFocus()
 session.findById("wnd[0]/usr/txtRSYST-LANGU").caretPosition = 2
 session.findById("wnd[0]").sendVKey(0)
 session.findById("wnd[0]/tbar[0]/btn[11]").press()
-session.findById("wnd[0]/tbar[0]/okcd").text = "/nzvp1a" 
+session.findById("wnd[0]/tbar[0]/okcd").text = "*****" 
 session.findById("wnd[0]").sendVKey(0) 
 
-#"0669499001*"
-session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/ctxtWA_SEL_0130-MATL").text = "0669499001*"
+session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/ctxtWA_SEL_0130-MATL").text = "*"
 session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/chkWA_0130D-PREIS").setFocus()
 session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/chkWA_0130D-PREIS").selected = True
 session.findById("wnd[0]/usr/tabsTABSTR/tabpPRD/ssubSUBSCREENAREA:SAPMZVP13:0130/chkWA_0130D-MIN").setFocus()
@@ -116,7 +60,6 @@ session.findById("wnd[1]/usr/ctxtDY_PATH").text = "C:\\Users\\Weiche.Fu\\Downloa
 session.findById("wnd[1]/usr/ctxtDY_FILENAME").text = filename
 session.findById("wnd[1]/usr/ctxtDY_FILENAME").caretPosition = 33
 session.findById("wnd[1]/tbar[0]/btn[0]").press()
-
 
 
 
